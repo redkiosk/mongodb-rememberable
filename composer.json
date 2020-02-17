@@ -1,0 +1,28 @@
+{
+    "name": "nhahv/mongodb-rememberable",
+    "description": "MongoDB Query Caching for Laravel 5 with Jenssegers/MongoDB",
+    "keywords":["laravel","eloquent","mongodb","caching","remember","jenssegers"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nha.HV",
+            "email": "nhahv.viss@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "~5.0",
+        "illuminate/support": "~5.0",
+        "jenssegers/mongodb": "^2.2"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NhaHV\\MongoDBRememberable\\": "src/"
+        }
+    }
+}
