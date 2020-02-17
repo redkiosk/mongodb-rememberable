@@ -1,9 +1,9 @@
 <?php
-namespace NhaHV\MongoDBRememberable\Query;
+namespace Redkiosk\MongoDBRememberable\Query;
 
 use Illuminate\Support\Facades\Cache;
 
-class Builder extends \Jenssegers\Mongodb\Query\Builder
+class Builder extends \Redkiosk\Mongodb\Query\Builder
 {
     /**
      * The key that should be used when caching the query.

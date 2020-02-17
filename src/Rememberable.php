@@ -1,7 +1,7 @@
 <?php
-namespace NhaHV\MongoDBRememberable;
+namespace Redkiosk\MongoDBRememberable;
 
-use NhaHV\MongoDBRememberable\Query\Builder;
+use Redkiosk\MongoDBRememberable\Query\Builder;
 
 trait Rememberable
 {
